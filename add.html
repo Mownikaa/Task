@@ -1,6 +1,6 @@
 <!DOCType html>
     <head>
-	<link rel="stylesheet" type="text/css" href="add.css"/>
+	
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script>
 $(document).ready(function() {
@@ -26,6 +26,60 @@ $(document).ready(function() {
     })
 });
 </script>
+<style>
+body{
+	margin:0;
+}
+*{
+   border:none;
+}
+.clearit{
+	clear:both;
+}
+form.contactUs {
+ padding:0;
+ width:30%;
+ height:100%;
+ margin:0 auto;
+ border:1px solid #dedede;
+ position:relative;
+ bottom:0;
+ left:0;
+ background:#fff;
+ text-align:center;
+}
+form.contactUs ul, form.contactUs label {
+ padding:0;
+ list-style:none;
+ color:#666;
+}
+form.contactUs ul li {
+ margin:5px;
+ border:1px solid #dedede;
+}
+form.contactUs ul li:nth-child(odd){
+ width:60%;
+ float:left;
+}
+form.contactUs ul li:nth-child(even){
+ width:20%;
+ float:left;
+}
+.navbar {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: sticky;
+        top: 0;
+        cursor: pointer;
+    }
+ 
+    .background {
+        background: grey;
+        background-blend-mode: darken;
+        background-size: cover;
+    }
+	</style>
 </head>
 <body>
 
