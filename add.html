@@ -13,13 +13,13 @@ $(document).ready(function() {
         e.preventDefault();
         if (x < max_fields) {
             x++;
-            $(wrapper).append('<div><input id="name" type="text" placeholder="Title..." /><a href="#" class="delete">Delete</a></div>'); //add input box
+            $(wrapper).append('<div><input id="name" type="text" placeholder="Title..." /><a href="#" class="x">x</a></div>'); //add input box
         } else {
             alert('You Reached the limits')
         }
     });
 
-    $(wrapper).on("click", ".delete", function(e) {
+    $(wrapper).on("click", ".x", function(e) {
         e.preventDefault();
         $(this).parent('div').remove();
         x--;
