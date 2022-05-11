@@ -1,0 +1,96 @@
+.body{
+  background-color: thistle;
+}.navbar {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   top: 0;
+   background: grey;
+   background-blend-mode: darken;
+   background-size: cover;
+}
+.hero_desc {    
+   border:1px solid black;
+   display: inline-block;
+   width: 150px;
+   height: 120px;
+   margin-left: 150px;
+}
+.hero_title {
+  text-align: center;
+  margin-left: 70px;
+}
+.hero_title1 {
+  margin-left: 80px;
+  text-align: right;
+}
+.flex-item{
+ width:55%;
+ height: 100px;
+ float:center;
+ border: 1px solid black;
+ 
+}
+.flex-container{
+ float:center;
+ width:45%;
+ height: 20px;
+ display:flex;
+ justify-content:space-around;
+ border: 1px solid black;
+ margin-left:30%;
+}
+
+.contactUs {
+padding:0;
+width:30%;
+margin:0 auto;
+border:1px solid white;
+position:relative;
+text-align:center;
+height: 350px;
+}
+.row{
+ text-align: left;
+ width: 100%;
+ display: block;
+}
+
+.half-row{
+ display: inline-block;
+ width: 48%;
+ padding: 1%;
+ float:left;
+  
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: gray;
+  color: white;
+  text-align: right;
+  height :20px;
+}
+.insert{
+  background-color:rgb(131, 231, 231);
+}
+.data{
+  transform-origin:center;
+  animation-duration: 3s;
+  animation-name: figure;
+  animation-iteration-count: infinite;
+}
+
+@keyframes figure{
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+  }
